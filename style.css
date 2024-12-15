@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin-top: 50px;
+  }
+  
+  /* Header Styles */
+  h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+  }
+  
+  /* Form Styles */
+  .auth-form {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-form input,
+  .auth-form button {
+    margin-bottom: 15px;
+  }
+  
+  .auth-form button {
+    width: 100%;
+  }
+  
+  /* Notes List Styles */
+  #notes-list .note {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  #notes-list .note:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Rich Text Editor Styling */
+  #editor {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .ql-container {
+    font-size: 1rem;
+  }
+  
+  .ql-toolbar {
+    background-color: #f1f3f5;
+  }
+  
+  .ql-editor {
+    min-height: 150px;
+  }
+  
+  /* Note Content and Actions */
+  .note-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .note-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .note-actions button {
+    margin-left: 10px;
+  }
+  
+  /* Time Ago Label */
+  .note-time {
+    font-size: 0.875rem;
+    color: #6c757d;
+  }
+  
+  /* Miscellaneous */
+  .d-none {
+    display: none !important;
+  }
+  
